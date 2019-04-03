@@ -1,0 +1,380 @@
+#header {
+  border-bottom: 2px solid #337ab7;
+}
+#header .container .navbar-default {
+  background: none;
+  border: none;
+  margin: 0;
+}
+#header .container .navbar-default .container-fluid .navbar-header {
+  padding: 10px 0;
+}
+#header .container .navbar-default .navbar-collapse {
+  position: relative;
+}
+#header .container .navbar-default .navbar-collapse .navbar-nav li {
+  padding: 10px 0;
+}
+#header .container .navbar-default .navbar-collapse .navbar-nav li a {
+  background: none;
+}
+#header .container .navbar-default .navbar-collapse .navbar-nav li a:hover {
+  color: #0ba1e4;
+}
+#header .container .navbar-default .navbar-collapse .navbar-nav li.active a {
+  color: #0ba1e4;
+  border-bottom: 1px solid #0ba1e4;
+}
+#main .carousel-inner .item img {
+  width: 100%;
+}
+#carousel {
+  padding: 50px 0;
+}
+#carousel .container {
+  text-align: center;
+}
+#carousel .container > .row h3 {
+  font-size: 36px;
+  font-weight: 300;
+  position: relative;
+  margin-bottom: 40px;
+}
+#carousel .container > .row h3::after {
+  content: '';
+  width: 80px;
+  height: 2px;
+  background-color: #0ba1e4;
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  line-height: 60px;
+}
+#carousel .container > .row h2 {
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+#carousel .container > .row > .row > div p {
+  font-size: 50px;
+  color: #0ba1e4;
+}
+#carousel .container > .row > .row > div h4 {
+  font-size: 18px;
+  font-weight: 300;
+}
+#whyus {
+  padding: 50px 0;
+  background: #e1e1e1;
+}
+#whyus .container {
+  text-align: center;
+}
+#whyus .container > .row > h3 {
+  font-size: 36px;
+  font-weight: 300;
+  position: relative;
+  margin-bottom: 40px;
+}
+#whyus .container > .row > h3::after {
+  content: '';
+  width: 80px;
+  height: 2px;
+  background-color: #0ba1e4;
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  line-height: 60px;
+}
+#whyus .container > .row > h2 {
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+#whyus .container > .row > .row > div > div {
+  padding: 10px;
+  border: 1px solid #c1c1c1;
+  background-color: white;
+}
+#whyus .container > .row > .row > div > div:hover {
+  transition: all 1s;
+  background-color: #0ba1e4;
+}
+#whyus .container > .row > .row > div > div:hover i {
+  color: white;
+}
+#whyus .container > .row > .row > div > div:hover p {
+  color: white;
+}
+#whyus .container > .row > .row > div > div:hover h3 {
+  color: white;
+}
+#whyus .container > .row > .row > div > div i {
+  font-size: 80px;
+  height: 120px;
+  color: #0ba1e4;
+  line-height: 120px;
+}
+#whyus .container > .row > .row > div > div > p {
+  line-height: 20px;
+  margin: 0 0 10px;
+}
+#whyus .container > .row > .row > div > div h3 {
+  margin-top: 20px;
+}
+#service {
+  padding: 50px 0;
+}
+#service .container {
+  text-align: center;
+}
+#service .container > .row > h3 {
+  font-size: 36px;
+  font-weight: 300;
+  position: relative;
+  margin-bottom: 40px;
+}
+#service .container > .row > h3::after {
+  content: '';
+  width: 80px;
+  height: 2px;
+  background-color: #0ba1e4;
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  line-height: 60px;
+}
+#service .container > .row > h2 {
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+#service .container > .row > .row {
+  padding: 20px 15px  60px;
+}
+#service .container > .row > .row > div {
+  padding: 0;
+}
+#service .container > .row > .row > div > div {
+  border: 1px solid #c1c1c1;
+  background-color: #fafafa;
+}
+#service .container > .row > .row > div > div:hover {
+  transition: all .5s;
+  transform: scale(1.1);
+  background-color: #0ba1e4;
+  border: 1px solid #0ba1e4;
+  color: white;
+  z-index: 11;
+  position: relative;
+}
+#service .container > .row > .row > div > div:hover .top {
+  border-bottom: 1px solid white;
+}
+#service .container > .row > .row > div > div:hover .top h4 {
+  color: white;
+}
+#service .container > .row > .row > div > div:hover .bottom button {
+  color: white;
+  border: 1px solid white;
+}
+#service .container > .row > .row > div > div .top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 0;
+  border-bottom: 1px solid #c1c1c1;
+}
+#service .container > .row > .row > div > div .top h4 {
+  color: #0ba1e4;
+  font-weight: bold;
+}
+#service .container > .row > .row > div > div .bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 0 30px 0;
+}
+#service .container > .row > .row > div > div .bottom p {
+  margin-bottom: 10px;
+  line-height: 41px;
+}
+#service .container > .row > .row > div > div .bottom button {
+  background: none;
+  color: #0ba1e4;
+  border: 1px solid #0ba1e4;
+  width: 98px;
+  height: 34px;
+  border-radius: 3px;
+}
+#service .container > .row > .row > div > div .bottom button:hover {
+  background-color: white;
+  color: #0ba1e4;
+  transition: all .5s;
+}
+#service .container > button {
+  width: 142px;
+  height: 46px;
+  color: #0ba1e4;
+  border: 1px solid #0ba1e4;
+  background: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+#service .container > button:hover {
+  transition: all .5s;
+  background-color: #0ba1e4;
+  color: white;
+}
+#example {
+  padding: 50px 0;
+  background: #e1e1e1;
+}
+#example .container {
+  text-align: center;
+}
+#example .container > .row > h3 {
+  font-size: 36px;
+  font-weight: 300;
+  position: relative;
+  margin-bottom: 40px;
+}
+#example .container > .row > h3::after {
+  content: '';
+  width: 80px;
+  height: 2px;
+  background-color: #0ba1e4;
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  line-height: 60px;
+}
+#example .container > .row > h2 {
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+#example .container > .row > .row > div {
+  padding: 30px 15px;
+}
+#example .container > .row > .row > div .top {
+  position: relative;
+  padding: 9px 14px;
+  border: 1px solid green;
+}
+#example .container > .row > .row > div .top::after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border: 1px solid green;
+  position: absolute;
+  transform: rotate(45deg) translateX(-50%);
+  left: 50%;
+  bottom: -9px;
+  border-top: 0;
+  border-left: 0;
+  background: #e1e1e1;
+}
+#example .container > .row > .row > div .top img {
+  width: 50px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: -26px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#example .container > .row > .row > div .top p {
+  margin-top: 25px;
+}
+#example .container > .row > .row > div .top > div {
+  height: 20px;
+}
+#example .container > .row > .row > div .top > div > span {
+  background-color: #ccc;
+  float: left;
+  padding: 1.3px 9px;
+  font-size: 12px;
+}
+#example .container > .row > .row > div .top > div > div {
+  float: right;
+  font-size: 12px;
+  color: #aaa;
+}
+#example .container > .row > .row > div .bottom {
+  width: 70px;
+  height: 70px;
+  background-image: url(../images/内网通截图20190402144346.png);
+  background-size: 70px 70px;
+  background-position: center center;
+  margin: 20px auto 0;
+  background-color: #e1e1e1;
+}
+#news {
+  padding: 50px 0;
+}
+#news .container {
+  text-align: center;
+}
+#news .container > div .title {
+  margin: 20px 0 10px;
+  font-size: 20px;
+}
+#news .container > .row > h3 {
+  font-size: 36px;
+  font-weight: 300;
+  position: relative;
+  margin-bottom: 40px;
+}
+#news .container > .row > h3::after {
+  content: '';
+  width: 80px;
+  height: 2px;
+  background-color: #0ba1e4;
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  line-height: 60px;
+}
+#news .container > .row > h2 {
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+#news .container > .row > .row .media {
+  padding: 20px 0;
+}
+#news .container > .row > .row .media .media-left a {
+  padding: 4px;
+  border: 1px solid #ddd;
+  display: block;
+}
+#news .container > .row > .row .media .media-left a img {
+  width: 130px;
+}
+#news .container > .row > .row .media .media-body {
+  text-align: left;
+  font-size: 12px;
+  color: #999;
+}
+#news .container > .row > .row .media .media-body h4 a {
+  color: #0ba1e4;
+  text-decoration: none;
+}
+#news .container > .row > .row .media .media-body h4 a:hover {
+  font-weight: 800;
+}
+#news .container > .row > .row .media .media-body p {
+  padding: 2px 0;
+  margin: 0;
+}
+#news .container > .row > .row .media .media-body a {
+  color: #999;
+}
